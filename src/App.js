@@ -7,8 +7,16 @@ import { store } from './redux/store';
 function App() {
   return (
     <Provider store={store}>
-     <Cart />
+    <div className="container">
+    <div className="row">
+      <div className="col-7">
      <Shop />
+      </div>
+      <div className="col-5">
+      <Cart />
+      </div>
+      </div>
+    </div>
     </Provider>
   );
 }

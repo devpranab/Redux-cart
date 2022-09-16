@@ -3,11 +3,11 @@ import { ADD_TO_CART, REMOVE_FROM_CART } from "./actions";
 const initialState = {
     cart:[],
     products:[
-        {name: "Apple", id: 1},
-        {name: "Dell", id: 2},
-        {name: "Mi", id: 3},
-        {name: "Asus", id: 4},
-        {name: "HP", id: 5}
+        {name: "Apple laptop", id: 1},
+        {name: "Dell laptop", id: 2},
+        {name: "Mi laptop", id: 3},
+        {name: "Asus laptop", id: 4},
+        {name: "HP laptop", id: 5}
     ]
 }
 

@@ -1,5 +1,6 @@
 .product {
-    border: 1px solid tomato;
+    border: 1px solid lightblue;
     padding: 10px;
     width: 300px;
+    margin: 10px;
 }
