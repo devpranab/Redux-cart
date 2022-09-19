@@ -13,7 +13,6 @@
 <p>a node  state management package for advance, to solve props drilling problem.</p>
 <img src="./image/redux-flow.jpg" alt="" width="800" title="my pic"/>  
 <img src="./image/why-redux.jpg" alt="" width="300" title="my pic2"/>
-
 ## Data Flow
 1. Action is a plain object  describing what happened
 2. Call store.dispatch(action) from anywhere in your app
