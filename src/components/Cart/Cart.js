@@ -10,7 +10,7 @@ const Cart = (props) => {
             <hr />
             <ul>
                 {
-                    cart.map(id => <li style={{margin: "10px"}}>{id} <button onClick={() => removeFromCart(id)}>x</button></li>)
+                    cart.map(pd => <li key={pd.cartId} style={{margin: "10px"}}>{pd.name} <button onClick={() => removeFromCart(pd.cartId)}>x</button></li>)
                 }
             </ul>
         </div>

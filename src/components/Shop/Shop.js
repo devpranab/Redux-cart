@@ -7,6 +7,8 @@ const Shop = (props) => {
     const {products, addToCart} = props;
     return (
         <div>
+            <h5>Shop-Product Component</h5>
+            <hr />
         {
          products.map(product => 
          <Product key={product.id} product={product} addToCart={addToCart}>

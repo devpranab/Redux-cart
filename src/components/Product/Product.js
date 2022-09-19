@@ -6,7 +6,7 @@ const Product = (props) => {
     return (
         <div className="product">
             <h5>{product.name}</h5>
-            <button onClick={() => addToCart(product.id)}>add to cart</button>
+            <button onClick={() => addToCart(product.id, product.name)}>add to cart</button>
         </div>
     );
 };
