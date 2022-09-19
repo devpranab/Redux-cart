@@ -94,3 +94,5 @@ store.dispatch({
 //console.log(store.getState()); //manually perform
 
 ```
+
+### redux dev tool chrome extension
