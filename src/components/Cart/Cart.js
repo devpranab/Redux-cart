@@ -6,7 +6,7 @@ const Cart = (props) => {
     const {cart, removeFromCart} = props;
     return (
         <div>
-            <h5>Cart Component</h5>
+            <h5>Cart</h5>
             <hr />
             <ul>
                 {
