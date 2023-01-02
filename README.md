@@ -1,12 +1,14 @@
 # Learn Redux
-1. setup a simple application to use redux
-2. set actions and dispatch for redux cart
-3. create Cart Reducers
-4. create store use react redux provider
-5. connect component with redux state and actions
-6. use redux state and redux actions from a child component
-7. use redux to read dynamic state
-8. bug fix with redux reducer and action dispatch
+1. Install redux and react redux in a react app
+2. Setup a simple application to use redux
+3. Set actions and dispatch for redux cart
+4. Create Cart Reducers
+5. Create store use react redux provider
+6. Connect component with redux state and actions
+7. Use redux state and redux actions from a child component
+8. Use redux to read dynamic state
+9. Bug fix with redux reducer and action dispatch
+10. Redux summary Redux Saga Redux Dev Tool Chrome extension
 
 <hr/>
 # Redux-basic flow docs
@@ -96,4 +98,5 @@ store.dispatch({
 
 ```
 https://labs.tadigital.com/index.php/2020/04/20/getting-started-with-redux/  
-### redux dev tool chrome extension  
+https://react-redux.js.org/introduction/getting-started  
+### redux dev tool chrome extension - https://redux-saga.js.org/
